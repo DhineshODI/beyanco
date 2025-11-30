@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You!</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400i' rel='stylesheet' type='text/css'>
+
+  <style>
+    body {
+       background: url(/img/banner/bg-1.png);
+        text-align: center;
+}
+
+#thankyou {
+  background-color: white;
+  border-radius: 10px;
+  width: 500px;
+  border: 6px solid #fe1641;
+  box-shadow: 7px 7px 4px #4999b6;
+  margin: 100px auto 50px;
+  text-align: center;
+  -webkit-animation: flash 1.2s ease 0s infinite;
+  animation: flash 1.2s ease 0s infinite;
+}
+
+#thankyou h5 {
+ padding: 20px;
+ font-size: 20px;
+}
+
+#h2thankyou {
+  color: #4999b6;
+  padding: 32px;
+  font-size: 44px;
+  font-family: 'Open Sans', 'sans-serif';
+  -webkit-animation: flashtwo 1.2s linear 0s infinite;
+  animation: flashtwo 1.2s linear 0s infinite;
+}
+a {
+  text-decoration: none;
+  color: #4999b6;
+}
+
+#linkback {
+  font-family: 'Open Sans' 'sans-serif';
+  text-decoration: none;
+  padding: 12px;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 4px;
+  margin: 50px auto;
+  width: 200px;
+}
+
+#linkback:hover {
+  background-color: #fe1641;
+}
+
+a:hover {
+  color: white;
+}
+
+@keyframes flash {
+  0% {
+    background-color: white;
+  }
+  49% {
+    background-color: white;
+  }
+  50% {
+    background-color: #fe1641;
+  }
+  100% {
+    background-color: #fe1641;
+  }
+}
+
+@keyframes flashtwo {
+  0% {
+    color: #fe1641;
+  }
+  49% {
+    color: #fe1641;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: white;
+  }
+}
+@media (min-width:272px) and (max-width:500px){
+   #thankyou {
+     width: 90%;
+  }
+}
+  </style>
+</head>
+
+<body>
+    <div id="thankyou">
+      <h2 id="h2thankyou">Thank you!</h2>
+      <h5>Thank you for submitting your request.Our team will review your request and get back to you as soon as possible.</h5>
+    </div>
+    <div><a id="linkback" href="registration.php">Go back!</a></div>
+  </body>
+</html>
+
+<html>
+
